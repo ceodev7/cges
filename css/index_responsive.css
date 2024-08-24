@@ -1,0 +1,173 @@
+@media (min-width: 768px) {
+    header .title p:nth-child(1){
+        font-size: 3vw;
+    }
+    header .title p:nth-child(2){
+        display: block;
+    }
+    main {
+       top: 0;
+    }
+    h1 {
+        text-align: center;
+    }
+    main .part-left img {
+        height: 300px;
+        width: 300px;
+    }
+    main h2 {
+        font-size: 2.7vw;
+    }
+    #formation .group-card, #embauche .group-card  {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        gap: 10px;
+    }
+    #embauche .group-card .card {
+        height: max-content;
+        overflow: hidden; 
+    }
+    footer #footer {
+       font-size: 1.7vw;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .menu-burger {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    header .title {
+        justify-content: center;
+        gap: 20px;
+    }
+    header .title p:nth-child(1){
+        font-size: 2vw;
+    }
+    header img {
+        height: 50px;
+        width: 50px;
+        overflow: hidden;
+    }
+    nav {
+        left: 0;
+        width: 100%;
+        height: 40px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--bleu);
+    }
+    nav ul li {
+       gap: 5px;
+       height: 100%;
+       position: relative;
+    }
+    nav ul li a {
+        color: var(--white);
+    }
+    main {
+        top: 50px;
+        margin-bottom: 20px;
+        width: 100%;
+        margin: auto;
+    }
+    main h1 {
+        font-size: 2.5vw;
+    }
+    main h2 {
+        font-size: 1.5vw;
+    }
+    #affiche .content {
+        width: 30%;
+    }
+    #affiche .content h1{
+        font-size: 3vw;
+    }
+    #info .mot-dg {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        gap: 10px;
+    }
+    #info img {
+        display: block;
+        width: 400px;
+        height:400px;
+        object-fit: cover;
+    }	
+    #info .group-box  {
+        width: 80%;
+        margin: auto;
+    }
+    #info .group-box .box {
+        height: 10px;
+        width: 15px;
+        background: var(--vert-turquoise);
+    }
+    #pub {
+        position: relative;
+    }
+    #pub img {
+        display: block;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    #pub article {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        width: 40%;
+        padding: 20px;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+    #pub article h2 {
+        text-transform: uppercase;
+    }
+    #formation .group-card {
+        width: 80%;
+        grid-template-columns: repeat(4,1fr);
+        margin: auto;
+    }
+    /* FOOTER */
+    #info .group-box article {
+        align-items: center;
+    }
+    #confiance .content {
+        /* position: relative; */
+        /* display: flex; */
+        padding : 20px;
+        width: 70%;
+    }
+    #confiance .content {
+        /* position: relative; */
+        /* display: flex; */
+        padding : 20px;
+        width: 100%;
+    }
+    #embauche .group-card {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        width: 80%;
+        margin: auto;
+    }
+    /* FOOTER */
+    footer {
+        margin-top: 60px;
+    }
+    footer .contact {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    footer #footer {
+        font-size: 1vw;
+    }
+}
